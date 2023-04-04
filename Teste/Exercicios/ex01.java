@@ -1,4 +1,4 @@
-package Exercicios;
+package Teste.Exercicios;
 
 import Vetor.Lista;
 
