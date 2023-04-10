@@ -5,6 +5,7 @@ public class EstruturaEstatica<T> {
     protected T[] elementos;
     protected int tamanho;
 
+    @SuppressWarnings("unchecked")
     public EstruturaEstatica(int capacidade){
         this.elementos = (T[]) new Object[capacidade]; //solução do livro effective Java
         this.tamanho = 0;
@@ -30,7 +31,7 @@ public class EstruturaEstatica<T> {
 
     protected boolean adiciona(int posicao, T elemento){
 
-        if (!(posicao >= 0 && posicao < tamanho)){
+        if (posicao < 0 || posicao > tamanho){
             throw new IllegalArgumentException("Posição inválida");
         }
 
@@ -46,6 +47,17 @@ public class EstruturaEstatica<T> {
         return true;
     }
 
+    protected void remove(int posicao){
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posicao inválida");
+        }
+        for (int i=posicao; i<tamanho-1; i++){
+            elementos[i] = elementos[i+1];
+        }
+        tamanho--;
+    }
+
+    @SuppressWarnings("unchecked")
     private void aumentaCapacidade(){
         if (this.tamanho == this.elementos.length){
             T[] elementosNovos = (T[]) new Object[this.elementos.length * 2];

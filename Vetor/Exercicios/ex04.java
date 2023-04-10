@@ -1,8 +1,8 @@
-package Teste.Exercicios;
+package Vetor.Exercicios;
 
 import Vetor.Lista;
 
-public class ex03 {
+public class ex04 {
 
     public static void main(String[] args) {
 
@@ -14,18 +14,8 @@ public class ex03 {
         lista.adiciona("D");
         lista.adiciona("E");
 
-        System.out.println(lista);
-
-        lista.remove("A");
-
-        System.out.println(lista);
-
-        lista.remove("E");
-
-        System.out.println(lista);
-
-        lista.remove("C");
-
-        System.out.println(lista);
+        System.out.println(lista.obtem(0));
+        System.out.println(lista.obtem(2));
+        System.out.println(lista.obtem(4));
     }
 }

@@ -1,7 +1,6 @@
-package Teste;
+package Vetor.Teste;
 
 import Vetor.Lista;
-import Vetor.VetorObjetos;
 
 public class aula11 {
 

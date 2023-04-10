@@ -1,4 +1,4 @@
-package Teste;
+package Vetor.Teste;
 
 public class Contato {
 
