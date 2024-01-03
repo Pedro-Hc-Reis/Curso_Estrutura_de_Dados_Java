@@ -1,10 +1,10 @@
-# Curso de Etrutura de Dados Java - Loiane Training
+# Curso de Estrutura de Dados Java - Loiane Training
 
-Bem-vindo ao repositório do curso de Etrutura de Dados Java oferecido pela Loiane Training. Este repositório contém os materiais, exercícios e projetos práticos abordados durante o curso, ministrado pela renomada instrutora Loiane.
+Bem-vindo ao repositório do curso de Estrutura de Dados Java oferecido pela Loiane Training. Este repositório contém os materiais, exercícios e projetos práticos abordados durante o curso, ministrado pela renomada instrutora Loiane.
 
 ## Link do Curso com Certificado
 
-[Curso Etrutura de Dados Java](https://loiane.training/curso/estrutura-de-dados)
+[Curso Estrutura de Dados Java](https://loiane.training/curso/estrutura-de-dados)
    
 ## Estrutura do Repositório
 
